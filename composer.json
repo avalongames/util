@@ -1,0 +1,21 @@
+{
+  "name": "avalongames/util",
+  "type": "library",
+  "authors": [
+    {
+      "name": "avalon-web",
+      "email": "dev@avalongames.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "guzzlehttp/guzzle": "^6.3"
+  },
+  "license": "MIT",
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "AvalonGames\\Util\\": "src/"
+    }
+  }
+}
