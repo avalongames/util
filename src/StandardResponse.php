@@ -36,6 +36,8 @@ class StandardResponse
     public function setStatus(int $status)
     {
         $this -> status = $status;
+
+        return $this;
     }
 
     public function getLinks()
@@ -54,10 +56,14 @@ class StandardResponse
     public function setLinks($links)
     {
         $this -> links = $links;
+
+        return $this;
     }
 
     public function setData($data)
     {
         $this -> data = $data;
+        
+        return $this;
     }
 }
